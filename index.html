@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno-Web</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+                <a class="navbar-brand fs-2" href="">Techno-<span class="text-primary">Web</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demo" aria-controls="demo" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="demo">
+                    <ul class="navbar-nav ms-auto fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#title">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" data-bs-target="#navbarDropdown" aria-controls="navbarDropdow" aria-expanded="false" aria-label="toggle dropdown">Service</a>
+                            <div class="dropdown-menu" id="navbarDropdown">
+                                <a class="dropdown-item" href="#services">Web-Development</a>
+                                <a class="dropdown-item" href="#services">SCO</a>
+                                <a class="dropdown-item" href="#services">Graphic-Design</a>
+                                <a class="dropdown-item" href="#services">Data Science</a>
+                                <a class="dropdown-item" href="#services">Machine learning</a>
+                                <a class="dropdown-item" href="#services">Cloud Computing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contect</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="myslider" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myslider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#cmyslider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="b5img/banner.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="b5img/banner1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="b5img/banner.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myslider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myslider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">Me</span></h1>
+            <hr class="w-25 m-auto">
+            <div class="row mx-5 ">
+            <div class="col-lg-6 text-centre" data-aos="fade-right" data-aos-offset="500">
+                <h1>What do you <span class="text-primary">want to know?</span></h1>
+                <p>Use for pawerfull mobile first flexbox grid to build layout of all shap<br> and sizes thanks to a tweles coloum 
+                    system, six default trils,<br> Saas veriables and mixins, and doneez perdifined classes.
+                </p>
+                <button type="button" class="btn btn-info">click me</button>
+
+                <div class="accordion mt-5" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          My Hobby
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          My Qualification
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          My Dream
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <div class="col-lg-6 mt-4 pt-4" data-aos="fade-left" data-aos-offset="500">
+                <img src="b5img/s4.jpg" class="img-thumbnail" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-primary">Service</span></h1>
+            <hr class="w-25 m-auto">
+            <div class="row" id="info1"  data-aos="zoom-in" data-aos-offset="300">
+
+              <div class="col-lg-4" data-aos="flip-left" data-aos-offset="500">
+                <div class="card">
+                  <div class="card-header">
+                      <h2>Web-Development</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-user py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4" data-aos="flip-up" data-aos-offset="500">
+                <div class="card ">
+                  <div class="card-header">
+                    <h2>App development</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-code py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+              </div>
+              </div>
+
+              <div class="col-lg-4" data-aos="flip-right" data-aos-offset="500">
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Graphic-Design</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-user py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="row" id="info2" data-aos="zoom-in" data-aos-offset="300">
+
+              <div class="col-lg-4" data-aos="flip-left" data-aos-offset="200">
+                <div class="card">
+                  <div class="card-header">
+                      <h2>Data-Science</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-user py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4" data-aos="flip-down" data-aos-offset="200">
+                <div class="card ">
+                  <div class="card-header">
+                    <h2>Cloud Computing</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-code  py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4" data-aos="flip-right" data-aos-offset="200">
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Machine learning</h2>
+                  </div>
+                  <div class="card-body">
+                    <i class="fa-solid fa-user py-2"></i>
+                    <p>With supporting text below as a natural<br>lead-in to additional contant</p>
+                    <button class="btn btn-primary">Book Now!</button>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="team">
+      <div class="container-fluid">
+         <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-primary">Team</span></h1>
+         <hr class="w-25 m-auto">
+         <div class="row" id="info3">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-offset="300">
+            <div class="card">
+              <div class="card-body">
+                <img src="b5img/s4.jpg" class="img-fluid rounded-circle border border-primary p-2 my-2" alt="">
+                <div class="card-title"><h3>Andrew</h3></div>
+                <p class="card-text">Front End developer</p>
+                <button type="button" class="btn btn-primary btn-block">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-offset="300">
+            <div class="card">
+              <div class="card-body">
+                <img src="b5img/s6.jpg" class="img-fluid rounded-circle border border-primary p-2 my-2" alt="">
+                <div class="card-title"><h3>Rachit</h3></div>
+                <p class="card-text">Android developer</p>
+                <button type="button" class="btn btn-primary btn-block">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-offset="300">
+            <div class="card">
+              <div class="card-body">
+                <img src="b5img/s2.jpg" class="img-fluid rounded-circle border border-primary p-2 my-2" alt="">
+                <div class="card-title"><h3>Jack</h3></div>
+                <p class="card-text">Graphic-Designer</p>
+                <button type="button" class="btn btn-primary btn-block">Read More</button>
+              </div>
+            </div>
+          </div>
+        
+         </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid">
+        <h1 data-aos="fade-up" data-aos-offset="200">feel free <span class="text-primary">to Contect</span></h1>
+        <hr class="w-25 m-auto">
+        <div class="row" id="info4">
+          <div class="col-lg-6" data-aos="fade-left" data-aos-offset="500">
+
+              <label for="#nameform" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nameform">
+              <label for="#passwordform" class="form-label">password</label>
+              <input type="text" class="form-control" id="passwordform">
+              <label for="#addressform" class="form-label">address</label>
+              <input type="text" class="form-control" id="addressform">
+              <label for="#contory" class="form-lebel">Country</label>
+              <select class="selcet-form" id="contory" aria-label="default select example">
+                <option selected>select</option>
+                <option value="1">India</option>
+                <option value="2">England</option>
+                <option value="3">Canada</option>
+                <option value="4">Pakistan</option>
+              </select>
+              <br>
+              <label for="#pincodeform" class="form-label">Pincode</label>
+              <input type="text" class="form-control" id="pincodeform">
+              <br>
+              <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+          
+          <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500">
+            <img src="b5img/s6.jpg" class="img-fluid img-thumbnail" id="contect-img" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <h2>Developed by Gaurav Mall</h2>
+
+      </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c3000e5f4a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
